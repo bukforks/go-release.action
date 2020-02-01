@@ -17,6 +17,6 @@ LABEL "name"="Automate publishing Go build artifacts for GitHub releases through
 
 RUN apk add --no-cache curl jq git build-base
 
-ADD entrypoint.sh /entrypoint.sh
-ADD build.sh /build.sh
+COPY entrypoint.sh /entrypoint.sh
+COPY build.sh /build.sh
 ENTRYPOINT ["/entrypoint.sh"]
