@@ -1,6 +1,6 @@
-FROM golang@sha256:d689c8216da034556203b8dbb6bf0673f80024f4a9e3b1267af3c9a4f7fb960b
+FROM golang@sha256:9202dba0118f1eb416116f3845f1f25bbf926a57ee0c59b7ffc9fbc638026117
 # GOLANG_VERSION=1.13.7
-# https://hub.docker.com/layers/golang/library/golang/alpine/images/sha256-d689c8216da034556203b8dbb6bf0673f80024f4a9e3b1267af3c9a4f7fb960b
+# https://hub.docker.com/layers/golang/library/golang/1.13-alpine3.11/images/sha256-9202dba0118f1eb416116f3845f1f25bbf926a57ee0c59b7ffc9fbc638026117
 #MAINTAINER Atsushi Nagase <a@ngs.io> (https://ngs.io)
 
 LABEL "com.github.actions.name"="Go Release Binary"
