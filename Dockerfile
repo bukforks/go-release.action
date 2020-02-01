@@ -1,4 +1,6 @@
-FROM golang:alpine
+FROM golang@sha256:d689c8216da034556203b8dbb6bf0673f80024f4a9e3b1267af3c9a4f7fb960b
+# GOLANG_VERSION=1.13.7
+# https://hub.docker.com/layers/golang/library/golang/alpine/images/sha256-d689c8216da034556203b8dbb6bf0673f80024f4a9e3b1267af3c9a4f7fb960b
 #MAINTAINER Atsushi Nagase <a@ngs.io> (https://ngs.io)
 
 LABEL "com.github.actions.name"="Go Release Binary"
